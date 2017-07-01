@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheet/style.css">
+    <title>Karaoke</title>
+</head>
+<body>
+    <div class="container">
+    
+        <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Home</a>
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
+        <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
+       
+      </ul>
+  </div>
+</nav>
+    <div class="chuc-nang">
+		<button type="button" class="btn btn-danger">Tiếp nhận khách</button>
+	</div>
+
+    <table class="table">
+    <thead>
+      <tr>
+        <th>Room</th>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Star</th>
+        <th>Price</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for i in kara %}
+     <tr>
+        <td><a href="/staff"><button type="button" class="btn btn-info">{{i.room}}</button></a></td>
+        <td>{{ i.name }}</td>
+        <td>{{ i.size }}</td>
+       <td>{{ i.star }}</td>
+		    <td>{{i.price}}</td>
+        <td>{{i.status}}</td>
+     </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+    </div>
+    
+</body>
+</html>

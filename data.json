@@ -1,0 +1,84 @@
+{
+    "rooms": [{
+
+        "room" : "101",
+        "name" : "R101",
+        "size" : "big",
+        "star" : "3",
+        "price": 300000,
+        "status": 1
+    },
+     {
+        "room" : "102",
+        "name" : "R102",
+        "size" : "small",
+        "star" : "2",
+        "price": 200000,
+        "status": 0
+    },
+    {
+        "room" : "201",
+        "name" : "R201",
+        "size" : "big",
+        "star" : "3",
+        "price": 300000,
+        "status": 0
+    },
+    {
+        "room" : "202",
+        "name" : "R202",
+        "size" : "small",
+        "star" : "2",
+        "price": 200000,
+        "status": 1
+    },
+    {
+        "room" : "301",
+        "name" : "R301",
+        "size" : "big",
+        "star" : "3",
+        "price": 300000,
+        "status": 1
+    },
+    {
+        "room" : "302",
+        "name" : "R302",
+        "size" : "small",
+        "star" : "2",
+        "price": 200000,
+        "status": 0
+    },
+    {
+        "room" : "401",
+        "name" : "R401",
+        "size" : "big",
+        "star" : "4",
+        "price": 400000,
+        "status": 1
+    },
+    {
+        "room" : "402",
+        "name" : "R402",
+        "size" : "small",
+        "star" : "2",
+        "price": 200000,
+        "status": 0
+    },
+    {
+        "room" : "501",
+        "name" : "R501",
+        "size" : "big",
+        "star" : "4",
+        "price": 400000,
+        "status": 0
+    },
+    {
+        "room" : "502",
+        "name" : "R502",
+        "size" : "small",
+        "star" : "2",
+        "price": 2000000,
+        "status": 1
+    }
+    ]
+}
